@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 400px;
+    background-color: #EABF04;
+    padding: 10px;
+}
+.form-group {
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label,
+input {
+    display: block;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.custom-file-upload {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
